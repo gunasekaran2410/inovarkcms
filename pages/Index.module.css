@@ -5,3 +5,137 @@
 .red{
 	color: red;
 }
+.thumb{
+	background: #f7f7f7;
+    padding: 25px;
+    border-bottom: none;
+    text-align: center;
+    display: inline-block;
+    min-height: 350px;
+    width: 100%;
+    margin-bottom: 3rem;
+    transition: 0.4s ease-in-out;
+}
+.padding{
+	padding: 2rem 0;
+    font-size: 29px;
+    margin: 0px;
+    padding-top: 25px;
+    color: #666;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+.padding1{
+	padding: 2rem 0;
+    font-size: 29px;
+    margin: 0px;
+    padding-top: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    
+}
+.light_gray_bg {
+    background: #f7f7f7 !important;
+}
+
+/* navigation */
+.nav_link{
+    font-size: 14px;
+    color: #333333;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    letter-spacing: 0.5px;
+    font-weight: 700;
+    position: relative;
+    z-index: 999;
+    text-transform: uppercase;
+}
+.left_side{
+    position: relative;
+    left: 350px;
+}
+.text_center{
+    text-align: center;
+}
+.category{
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease-in-out 0s;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+   padding: 2.5rem 0;
+    min-width: 205px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 2px 15px 0 rgb(167 174 189 / 30%);
+}
+.list_icon{
+    margin-bottom: 2rem;
+    font-size: 40px;
+    color: #005faf;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #005faf !important;
+    border-color: #005faf !important;
+}
+.paragraph{
+    /* padding: 2rem 2rem 0 2rem; */
+    margin-bottom: 0;
+    color: #000;
+    font-size: 14px;
+}
+::ng-deep .list_group_item {
+    position: relative;
+    display: block;
+    padding: .75rem 1.25rem !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.list-group-item{
+    padding: .75rem 0.55rem;
+}
+.table{
+    margin-bottom: 0 !important;
+}
+.padding_none{
+    padding: 0 !important;
+}
+.padding_10{
+    padding: 10px;
+}
+.border_none {
+    border: none !important;
+}
+.margin_10{
+    margin: 10px 0;
+    padding: 5px;
+    width: 100%;
+}
+.clients {
+    background: #005faf;
+    text-align: center;
+}
+.white{
+    color: white;
+}
+.img_line{
+    width: 100% !important;
+
+    border: 5px solid #d8e7ff !important;
+  
+}
+.section{
+    margin: 1rem 0;
+}
