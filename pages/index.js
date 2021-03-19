@@ -13,6 +13,7 @@ import ListGroup from 'react-bootstrap/ListGroup'
 import Card from 'react-bootstrap/Card'
 import Table from 'react-bootstrap/Table'
 import ClientSlide from '../components/ClientSlide';
+import Footer from '../components/Footer'
 
 
 // import the library
@@ -230,7 +231,7 @@ export default class Home extends Component {
 </section>
 <br/><br/><br/>
 
-
+<Footer/>
       </>
     )
   }
