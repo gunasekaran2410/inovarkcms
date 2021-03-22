@@ -1,9 +1,5 @@
-import { Component } from 'react'; 
-
-function About(){
-    return <div>
-        <h1>About Components</h1>
-    </div>
-}
-
-export default About;
+function About() {
+    return <div>About</div>
+  }
+  
+  export default About

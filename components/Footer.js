@@ -87,18 +87,16 @@ function Footer(){
   </Row>
     </Col>
     <Col>
-    <div className={styles.foot_title}>SOCIAL SHARE  </div>
+    <div className={styles.foot_title}>SOCIAL SHARE </div>
     <ul className={styles.social}>
         <li>
-   <Image src="/images/social/twitter.svg" width="17" height="17" />
+           <Image src="/images/social/twitter.svg" width="17" height="17"/>
         </li>
         <li>
-        <Image src="/images/social/twitter.svg" width="17" height="17" />
-
+        <Image src="/images/social/twitter.svg" width="17" height="17"/>
         </li>
         <li>
-        <Image src="/images/social/twitter.svg" width="17" height="17" />
-
+        <Image src="/images/social/twitter.svg" width="17" height="17"/>
         </li>
     </ul>
     </Col>
