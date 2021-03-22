@@ -1,5 +1,4 @@
 import Head from "next/head"
-import { Component } from 'react'
 import { attributes, react as HomeContent } from '../content/home.md';
 import Navigation from '../components/Nav';
 import styles from './Index.module.css'
@@ -29,7 +28,7 @@ import { fas } from '@fortawesome/free-solid-svg-icons'
 library.add(fas);
 
 
-export default function Main() {
+export default function Home() {
   const router = useRouter()
   let { title, cats } = attributes;
   return <div>

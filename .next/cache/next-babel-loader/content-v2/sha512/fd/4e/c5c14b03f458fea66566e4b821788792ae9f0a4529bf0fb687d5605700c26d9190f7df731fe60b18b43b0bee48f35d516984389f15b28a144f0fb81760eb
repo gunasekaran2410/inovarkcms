@@ -1,0 +1,1 @@
+{"ast":null,"code":"import Modal from 'react-bootstrap/Modal';","map":{"version":3,"sources":["E:/cmsinovark/components/Modal.js"],"names":["Modal"],"mappings":"AAAA,OAAOA,KAAP,MAAkB,uBAAlB","sourcesContent":["import Modal from 'react-bootstrap/Modal'\r\n\r\n"]},"metadata":{},"sourceType":"module"}

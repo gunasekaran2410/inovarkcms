@@ -7,7 +7,7 @@ function Slide(){
   return(
       <div>
        
-<Carousel fade>
+<Carousel fade className={StyleSheet.slide}>
   <Carousel.Item>
     {/* <img
       className="d-block w-100"
