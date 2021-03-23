@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from 'react-bootstrap/Carousel'
 import Image from 'next/image'
+import styles from '../pages/Index.module.css'
 
 function Slide(){
   return(
       <div>
        
-<Carousel fade className={StyleSheet.slide}>
+<Carousel fade className={styles.slide}>
   <Carousel.Item>
     {/* <img
       className="d-block w-100"
