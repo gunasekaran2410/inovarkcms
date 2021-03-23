@@ -1,6 +1,5 @@
-node_modules
-out
-
-# Local Netlify folder
-.netlify
-.next
+.next/
+node_modules/
+/npm-debug.log
+.DS_Store
+out/
