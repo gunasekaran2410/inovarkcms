@@ -30,7 +30,7 @@ library.add(fas);
 
 export default function Home() {
   const router = useRouter()
-  let { title, cats } = attributes;
+  let { title, contents } = attributes;
   return <div>
      <Head>
           <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -46,14 +46,14 @@ export default function Home() {
        <Container>
        <HomeContent />
        <Row>
-       {cats.map((cat, k) => (
+       {contents.map((li, k) => (
          
     <Col xs={6} md={4} key={k}>
                 <article className={styles.thumb}>
                   <div className="button colio-link">
                     <Image alt="Cloud computing architecture " src="/images/what_we/product_development.png" width="100" height="100" alt="product development" /> 
-                      <h1  className="color-text">{cat.name}</h1>
-                      <p  className="color-text h-125"> {cat.description}</p>
+                      <h1  className="color-text">{li.name}</h1>
+                      <p  className="color-text h-125"> {li.description}</p>
                       </div>
                       <Button variant="primary" size="sm">
                       Read more &nbsp;&nbsp;&nbsp; 
